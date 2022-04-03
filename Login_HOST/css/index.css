@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0 auto;
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+    background-color: black;
+}
+
+
+.box {
+    
+    left: 50%;
+    top: 50%;
+    color: white;
+    position: absolute;
+    width: 300px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgb(37, 37, 39);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.box input[type = "email"], input[type = "text"], input[type = "password"] {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    border-radius: 24px;
+    background-color: grey;
+    border: 2px solid cyan;
+    color: white;
+    padding: 13px 10px;
+
+}
+
+.box input[type = "email"]:focus, input[type = "text"]:focus, input[type = "password"]:focus {
+    width: 210px;
+    border-color: #2ecc71;
+    
+
+}
+
+.error {
+    right: 100px;
+}
+
+input::placeholder {
+color: white;
+opacity: .5;
+}
+
+
+
+
+#enviar {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    border-radius: 24px;
+    background-color: grey;
+    border: 2px solid #2ecc71;
+    color: white;
+    padding: 13px 40px;
+}
+
+
+#enviar:hover {
+    background-color: #2ecc71;
+}
+
+
+
+
+#menu-h ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+    
+    
+
+}
+
+#menu-h ul li {
+display: inline;
+
+
+}
+
+#menu-h ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menu-h ul li a:hover {
+    color: grey;
+    transition: background 2s;
+}
+
+#avatarmenu {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px grey inset;
+}
+
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+}
+
+
+
+
+
